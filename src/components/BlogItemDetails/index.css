@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.blogDetails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogDetails-avatarUrl {
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.blogDetails-author-container {
+  display: flex;
+  width: 80%;
+  margin: 15px 0px;
+}
+.blogDetails-imageUrl {
+  width: 80%;
+  border-radius: 15px;
+}
+.blogDetails-content {
+  width: 80%;
+}
+.blogDetails-title {
+  font-size: 34px;
+  width: 75%;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .blogDetails-title {
+    font-size: 18px;
+  }
+}
